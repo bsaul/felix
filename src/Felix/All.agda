@@ -1,6 +1,6 @@
 {-# OPTIONS --safe --without-K #-}
 
-module Everything where
+module All where
 
 import Felix.Object
 import Felix.Equiv

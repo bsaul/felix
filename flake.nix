@@ -37,7 +37,9 @@
           version = "0.0.1";
           src = ./.;
 
-          buildInputs = with pkgs.agdaPackages; [ standard-library ];
+          everythingFile = "./src/Felix/All.agda";
+
+          buildInputs = [ agdaWithStandardLibrary ] ;
 
           meta = with pkgs.lib; {
             description = "Category theory for denotational design";
