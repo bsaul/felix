@@ -39,8 +39,6 @@
 
           buildInputs = with pkgs.agdaPackages; [ standard-library ];
 
-          everythingFile = "./src/Felix/All.agda";
-
           meta = with pkgs.lib; {
             description = "Category theory for denotational design";
             homepage = "https://github.com/conal/felix";
